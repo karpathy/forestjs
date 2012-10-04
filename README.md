@@ -16,7 +16,7 @@ The simplest use case:
 ```javascript
 <script src="./svmjs/lib/randomforest.js"></script>
 <script>
-forest = forestjs.RandomForest();
+forest = new forestjs.RandomForest();
 // data is 2D array of size NxD. Labels is 1D array of length D
 forest.train(data, labels); 
 // testInstance is 1D array of length D. Returns probability
